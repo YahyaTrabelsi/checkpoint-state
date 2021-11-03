@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  background-color: #c0c7d4;
+  
+}
+
+button {
+
+
+  padding: 4px 30px;
+  background-color: rgb(190, 183, 140);
+  border-radius: 4px;
+  font-size: 22px;
+  margin-top: 30px;
+  
+  }
+
+  .event {
+    width: 250px;
+    box-shadow: 6px 6px #888888;
+    border-radius: 8px;
+    border: 3px solid #ddd;
+    transform: scaleX(-1);
+  }
+
+
+  .prenom {
+  color: #225e51;
+  font-family: "Roboto", sans-serif;
+  }
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
