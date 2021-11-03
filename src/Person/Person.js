@@ -13,7 +13,8 @@ class Person extends Component {
   componentDidMount (){
    setInterval(() => {
        this.setState({timer: this.state.timer +1})
-   })}
+   },1000);
+}
   
   
   render() {
